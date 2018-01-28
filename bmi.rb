@@ -20,7 +20,8 @@ altura = gets.chomp.to_f
 imc = peso / altura**2
 
 
-puts "el índice de Masa corpolar es #{imc}"
+puts
+print "El índice de Masa corpolar es #{imc.round(2)},  "
 
 if imc < 18.5
 puts  "Tu índice de masa es bajo"
